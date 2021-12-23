@@ -1,0 +1,21 @@
+.web{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.nav-links{
+    font-size: 20px;
+    margin-right: 32px;
+    font-weight: 700;
+}
+
+.nav-links:last-child{
+    margin-right: 0px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,64 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.contact-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+}
+.contact-left{
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+.contact-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-links a{
+    margin-right: 32px;
+    font-size: 40px;
+}
+.contact-links a:last-child{
+    margin-right: 0px;
+}
+
+.resume-download{
+    background-color: #e4e9e9;
+    padding: 8px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.resume-download a{
+    text-decoration: none;
+    color: #000000;
+}
+
+@media only screen and (max-width:810px) {
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left{
+        max-width: 90%;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .resume-download{
+        font-size: 16px;
+    }
+}
